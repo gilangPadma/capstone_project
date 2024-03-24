@@ -1,0 +1,39 @@
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+  }
+  thead>tr.pengalaman{
+    background-color: rgb(205, 234, 246);
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+  }
+  
+  th.ok,
+  td.sip {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+  }
+  
+  td.sip:last-of-type {
+    text-align: center;
+  }
+  
+  tbody > tr.pengalaman:nth-of-type(even) {
+    background-color: rgb(237 238 242);
+  }
+  table#skill {
+    border: none;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+    line-height: 3rem;
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  
